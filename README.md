@@ -1,7 +1,9 @@
 # miniKermit
 
 ## What is the Kermit protocol?
-Kermit is an ARQ (Automatic Repeat Request) protocol that supports file transfer. Each wrong-recieved packet or unrecieved packet is retransmitted. The important payload is surrounded with control fields and each packet must be confirmed.
+Kermit is an ARQ (Automatic Repeat Request) protocol that supports file transfer. Each wrong-recieved packet or unrecieved packet is retransmitted. The important payload is surrounded with control fields and each packet must be confirmed.  
+
+This project is written in `.c`.
 
 ## How to run it
 1. **Build** the _environment_:  
